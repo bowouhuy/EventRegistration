@@ -1,11 +1,145 @@
 body{
-    
+    font-family:sans-serif!important;
 }
-.navatas{
-    background-color:#02134d;
-    color: white;
+.navbar {
+    background-color:#0d4146;
+    color:rgb(206, 206, 206) !important;
+    height: 55px;
 }
 
-.logo{
-    color: white;
+.navbar-nav{
+    height:70px;
+    position: relative;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    height: 70px;
+    margin-top:15px;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.navbar-brand{
+    color:white !important;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(255, 255, 255, 0.2);
+    border:0px solid #0e9aa7;
+    width:200px;
+    color:white;
+    height: 30px;
+    margin-left: 20px;
+}
+.button {
+    position:relative;
+    border:2px solid #f5b003;
+    background-color:#f5b003;
+    color:#ffffff;
+    height: 30px;
+    text-align: center;
+    vertical-align: 0%;
+}
+.button:hover  {
+    background-color:#fafafa;
+    border:2px solid #fafafa;
+    color:#f6cd61   ;
+}
+
+.jumbotron{
+    background-color: #086169!important;
+    color: rgb(233, 227, 227);
+    text-align: center;
+}
+
+.bt1{
+    background-color: #f5b003!important;
+    border:0px!important;
+}
+
+.daftar{
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 4em 1em;
+}
+
+.daftar ul{
+        display:grid;
+        list-style-type:none;
+        margin:0;padding:0;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(4, auto);
+        align:center;
+
+    
+}
+
+.card{
+    float:left!important;
+    position: relative!important;
+}
+
+.ket{
+    font-size: 12px;
+}
+
+.icon{
+    width:15px;
+    margin-right: 10px;
+}
+
+.card-body{
+    height:260px!important;
+}
+
+.card-img-top:hover, .card:hover{
+    -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+    -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.card-title:hover, .next:hover{
+    text-decoration: underline;
+    color: #f5b003;
+}
+
+.footer{
+    background-color: #0d4146;
+    padding-top: 40px;
+    height:130px;
+    vertical-align: middle; 
+    font-size: 14px;
+}
+
+.tengah{
+}
+
+.pembungkus{
+    width: 90%;
+    margin-left:5%;
+    border:1px solid black;
+    border-radius: 5px;
+    padding-bottom: 80px;
+
+}
+.poster{
+    width: 100%;
+}
+
+.tanggal{
+    width: 60%;
+    float:left;
+}
+
+.tempat{
+    width: 40%;
+    float:left;
+}
+
+.deskripsi, .pendaftaran{
+    width: 90%;
+    margin-left:5%;
 }

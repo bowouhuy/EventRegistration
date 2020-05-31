@@ -1,5 +1,8 @@
 
 $(document).on("click",".submit", function(){
+    var n =0;
+    var e=0;
+    var h=0;
     //validasi nama
     var nama = $(".nama").val().length;
         if (nama == 0) {			
@@ -7,6 +10,8 @@ $(document).on("click",".submit", function(){
             //return false;
         }else{
             document.getElementById('nama-alert').innerHTML = "";
+            n=1;
+            
         }
 
     //validasi email
@@ -19,6 +24,7 @@ $(document).on("click",".submit", function(){
             document.getElementById('email-alert').innerHTML = "Email tidak valid";
         }else{
             document.getElementById('email-alert').innerHTML = "";
+            e=1;
         }
 
     //validasi nomor hp
@@ -32,6 +38,20 @@ $(document).on("click",".submit", function(){
             document.getElementById('hp-alert').innerHTML = "Nomor Hp minimal 9 karakter";
         }else{
             document.getElementById('hp-alert').innerHTML = "";
+            h=1;
         }
-        
+    console.log(n,e,h); 
+    if(n==1 && e==1 && h==1){
+            var data = $('.form-validation').serialize();;
+            $.ajax({
+                type: 'POST',
+                url: "aksi.php",
+                data: data,
+                success: function() {
+                    $('.tampildata').load("tampil.php");
+                    alert("Berhasil mendaftar")
+                }
+            });
+            return false;
+    }
   })

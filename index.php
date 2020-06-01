@@ -24,7 +24,7 @@
         </form>
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Cari Events </a>
+          <a class="nav-link" href="#daftar">Cari Events </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Buat Event</a>
@@ -49,7 +49,7 @@
   </div>
 
   <div class="daftdar">
-    <div class="container daftar">
+    <div class="container daftar" id="daftar">
       <ul>
         <li>
           <div class="card" style="width: 17rem;">
@@ -60,7 +60,7 @@
                 <div class="mt-4 ket"><img class="icon" src="assets/icon/date.png" alt="" srcset="">31 May 2020 - 31 May 2020</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/clock.png" alt="" srcset="">19:00 - 20:00 WIB</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/place.png" alt="" srcset="">Event Online</br></div>
-              <a href="#" class="btn btn-primary mt-2">Daftar</a>
+              <a href="event/event1.html" class="btn btn-primary mt-2">Daftar</a>
             </div>
           </div>
         </li>
@@ -73,7 +73,7 @@
                 <div class="mt-4 ket"><img class="icon" src="assets/icon/date.png" alt="" srcset="">01 Jun 2020 - 01 Jun 2020</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/clock.png" alt="" srcset="">19:30 - 21:30 WIB</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/place.png" alt="" srcset="">Event Online</br></div>
-              <a href="#" class="btn btn-primary mt-2">Daftar</a>
+              <a href="event/event2.html" class="btn btn-primary mt-2">Daftar</a>
             </div>
           </div>
         </li><li>
@@ -85,7 +85,7 @@
                 <div class="mt-4 ket"><img class="icon" src="assets/icon/date.png" alt="" srcset="">03 Jun 2020 - 03 Jun 2020</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/clock.png" alt="" srcset="">15:00 - 17:00 WIB</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/place.png" alt="" srcset="">Event Online</br></div>
-              <a href="#" class="btn btn-primary mt-2">Daftar</a>
+              <a href="event/event3.html" class="btn btn-primary mt-2">Daftar</a>
             </div>
           </div>
         </li>
@@ -98,7 +98,7 @@
                 <div class="mt-4 ket"><img class="icon" src="assets/icon/date.png" alt="" srcset="">06 Jun 2020 - 06 Jun 2020</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/clock.png" alt="" srcset="">14:00 - 16:00 WIB</br></div>
                 <div class="mt-2 ket"><img class="icon" src="assets/icon/place.png" alt="" srcset="">Event Online</br></div>
-              <a href="#" class="btn btn-primary mt-2">Daftar</a>
+              <a href="event/event4.html" class="btn btn-primary mt-2">Daftar</a>
             </div>
           </div>
         </li>

@@ -8,7 +8,7 @@ include 'koneksi.php';
 		<th>Pekerjaan</th>
 	</tr>
 	<?php 
-	$data = mysqli_query("select * from user");
+	$data = mysqli_query("select * from peserta");
 	while($d=mysqli_fetch_array($data)){
 	?>
 	<tr>

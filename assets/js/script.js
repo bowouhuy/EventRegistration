@@ -42,14 +42,18 @@ $(document).on("click",".submit", function(){
         }
     console.log(n,e,h); 
     if(n==1 && e==1 && h==1){
-            var data = $('.form-validation').serialize();;
+            var data = $('.form-validation').serialize();
+            var tampil="../view/tampil"+$('.event').val()+".php";
             $.ajax({
                 type: 'POST',
-                url: "aksi.php",
+                url: "../aksi.php",
                 data: data,
                 success: function() {
-                    $('.tampildata').load("tampil.php");
-                    alert("Berhasil mendaftar")
+                    console.log(data);
+                    console.log(tampil);
+                    $('#ModalDaftar').modal('hide');
+                    $('.tampildata').load(tampil);
+                    alert("Berhasil Mendaftar");
                 }
             });
             return false;
